@@ -95,11 +95,17 @@ const LoginForm = () => {
             Login
           </button>
         </div>
-        <div className="mt-2 text-right mx-5">
-          <a href="/forgot" className="text-blue-500 hover:underline">
+        <div className="mt-2 mx-5">
+          <a href="/signup" className="text-blue-500 hover:underline  text-left">
+            Sign up
+          </a>
+          <a href="/forgot" className="text-blue-500 hover:underline  float-right">
             Forgot Password?
           </a>
         </div>
+        {/* <div className="mt-2 text-right mx-5">
+          
+        </div> */}
         <div className="mt-4 items-center justify-center flex flex-col">
           <button
             type="button"

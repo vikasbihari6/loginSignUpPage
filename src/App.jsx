@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import LoginPage from './components/loginPage'
 import ForgotPassword from './components/ForgotPassword';
+import SignUpPage from './components/signPage';
 import { Route,Routes,BrowserRouter } from 'react-router-dom';
 
 const App = () => {
@@ -32,6 +33,7 @@ const App = () => {
 
       <Route path='/' element={<LoginPage />} />
       <Route path='/forgot' element={<ForgotPassword /> } />
+      <Route path='/signup' element={<SignUpPage />} />
 
     </Routes>
     </BrowserRouter>
